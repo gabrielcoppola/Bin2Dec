@@ -1,0 +1,95 @@
+* {
+padding: 0;
+margin: 0;
+font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+body {
+background: #f5f3f4;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 6rem;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+
+}
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+  
+#container {
+border-radius: 0.3rem;
+display: flex;
+flex-direction: column;
+width: 35vw;
+}
+
+#userInput {
+padding: 0.4rem imp !important;
+height: auto;
+background: #fffffc;
+color: #333;
+border: none;
+border-radius: 1px;
+font-size: 24px;
+outline: none;
+text-align: center;
+}
+
+#userOutput {
+padding-top: 0.2rem;
+padding-bottom: 0.4rem;
+margin-top: 1rem;
+text-align: center;
+height: 16vh;
+max-height: 16vh;
+max-width: 35vw;
+overflow-y: auto;
+}
+
+#appName {
+text-align: center;
+padding-bottom: 3rem;
+}
+
+#bin2dec {
+background-color: #f5f3f4;
+margin-top: 0.6rem;
+padding-top: 0.2rem;
+padding-bottom: 0.2rem;
+outline: solid 0.15rem #000;
+border: none;
+border-width: 0.2rem;
+border-radius: 0;
+color: #000;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+font-weight: 400;
+cursor: pointer;
+
+}
+
+#bin2dec:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #f5f3f4;
+}
+
+
+
+  
